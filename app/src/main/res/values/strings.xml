@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Application</string>
+    <string name="natural_images">Natural Images</string>
+    <string name="next_page">Next Page</string>
+    <string name="page_1">Page 1</string>
+    <string name="tornado">Tornado</string>
+    <string name="comet">Comet</string>
+    <string name="moon">Moon</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
 </resources>

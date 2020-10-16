@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top"
-        android:text="Natural Images"
+        android:text="@string/natural_images"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,7 +27,7 @@
         android:layout_marginRight="0dp"
         android:layout_marginBottom="0dp"
         android:onClick="second_act"
-        android:text="Next Page"
+        android:text="@string/next_page"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -38,7 +38,7 @@
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:text="Page 1"
+        android:text="@string/page_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,7 +51,8 @@
         android:layout_marginTop="52dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/comet" />
+        app:srcCompat="@drawable/comet"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView5"
@@ -60,7 +61,7 @@
         android:layout_marginStart="92dp"
         android:layout_marginLeft="92dp"
         android:layout_marginTop="252dp"
-        android:text="Comet"
+        android:text="@string/comet"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,7 +74,8 @@
         android:layout_marginTop="52dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/moon" />
+        app:srcCompat="@drawable/moon"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView6"
@@ -82,7 +84,7 @@
         android:layout_marginStart="280dp"
         android:layout_marginLeft="280dp"
         android:layout_marginTop="252dp"
-        android:text="Moon"
+        android:text="@string/moon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -95,7 +97,8 @@
         android:layout_marginTop="284dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tornado" />
+        app:srcCompat="@drawable/tornado"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/textView7"
@@ -104,7 +107,7 @@
         android:layout_marginStart="180dp"
         android:layout_marginLeft="180dp"
         android:layout_marginTop="560dp"
-        android:text="Tornado"
+        android:text="@string/tornado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
